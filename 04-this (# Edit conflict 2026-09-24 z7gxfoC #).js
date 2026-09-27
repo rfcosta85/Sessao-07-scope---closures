@@ -3,9 +3,9 @@ const veiculoIMT = {
   modelo: "Corolla",
   velocidadeAtual: 50,
 
-  exibirDetalhes: function () {
+  /* exibirDetalhes: function () {
     console.log(`Veículo: ${this.marca} ${this.modelo} a ${this.velocidadeAtual} km/h`);
-  },
+  }, */
 
   
   exibirDetalhesIncorreto: () => {
@@ -28,8 +28,9 @@ const veiculoIMT = {
     console.log(`Veículo: ${this.marca} ${this.modelo} a ${this.velocidadeAtual} km/h`);
   }
 
-veiculoIMT.exibirDetalhes(); 
-
+  exibirDetalhes();
+/* veiculoIMT.exibirDetalhes(); 
+ */
 veiculoIMT.exibirDetalhesIncorreto(); 
 
 veiculoIMT.acelerarComDelay();
